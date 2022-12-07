@@ -1,0 +1,7 @@
+.legendItem-na {
+    list-style: none !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    margin: 5px 0 !important;
+    width: 210px !important;
+}

@@ -1,0 +1,848 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    /* height: 100%; */
+    padding: 0px;
+    margin: 0px;
+    background: #F2F0F0;
+    box-sizing: border-box;
+}
+
+p, h1, h3, span {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #000;
+}
+span {
+    font-size: 11px;
+}
+ul {
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/*Header*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.5s ease;
+    height: 65px;
+}
+.sticky-gray {
+    background: #000;
+    border-bottom: 5px solid #e1011f;
+}
+header img {
+    width: 200px;
+}
+.header-main-container {
+    padding: 1px 42px;
+}
+.a-header {
+    display: inline-block;
+    margin-top: 13px;
+}
+.logo-desktop {
+    font-size: 2.5rem;
+    color: #ffff;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 700;
+    margin: 0;
+}
+.logo-mobile {
+    font-size: 2.5rem;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 700;
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+.right {
+    margin-top: 8px;
+    float: right !important;
+}
+header span {
+    font-size: 0;
+}
+span a.btn-fb {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+span a.btn-twt {
+    background-position: 0 -43px;
+    background-repeat: no-repeat;
+}
+span a.btn-wsp {
+    background-position: 0 -86px;
+    background-repeat: no-repeat;
+}
+.right span a {
+    background-image: url(https://s3.amazonaws.com/glr-demo/2020/04/13/icons-white-1586816732.svg);
+}
+span [class*="btn-"] {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+}
+
+@media (max-width: 500px) {
+    .header-main-container {
+        padding: 1px 7px;
+    }
+}
+
+/*Main*/
+
+main {
+  margin-top: 110px;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.textBox {
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+
+.textBox p {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.textBox p b {
+  font-size: 15px;
+}
+
+#percentage__chart {
+  display: flex;
+  max-width: 1024px;
+  margin: 35px auto 25px auto;
+  width: 95%;
+}
+
+#percentage__chart div {
+  position: relative;
+}
+
+#percentage__chart div p.percentage_legend {
+  font-size: 15px;
+  position: absolute;
+  top: -20px;
+}
+
+.segment {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+}
+
+.segment p {
+  color: #fff
+}
+
+.legend ul {
+  margin: 0px auto 0px auto;
+  column-count: 3;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  -o-column-count: 3;
+  column-gap: 2em;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+  -o-column-gap: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 10px;
+  width: 720px;
+}
+
+.legend li {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px 0;
+  width: 210px;
+}
+
+.legend li div {
+  width: 18px;
+  height: 18px;
+  margin-right: 15px;
+  border-radius: 100%;
+}
+
+.chartContainer {
+  width: 100%;
+  height: 530px;
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+svg {
+  margin: 0 auto;
+  width: 600px;
+  display: block;
+  height: 300px;
+}
+
+@media (max-width: 500px) {
+  .legend ul {
+    width: 100%;
+    column-count: 2;
+    padding: 15px;
+    justify-content: center;
+  }
+  .legend li {
+    width: 160px;
+  }
+  .legendItem p {
+    font-size: 11px;
+  }
+  svg {
+      width: 350px;
+      height: 180px;
+  }
+  #percentage__chart {
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto 25px auto;
+    width: 92%;
+    flex-direction: column;
+  }
+  #percentage__chart > div {
+    margin: 15px 0;
+  }
+  #percentage__chart div p.percentage_legend {
+    font-size: 14px;
+    width: 100px;
+  }
+}
+
+svg .seat {
+  cursor: pointer;
+  transition: all 800ms;
+}
+
+svg .seat.ap, .legendItem-ap div {
+  fill: #ff0000;
+  background-color: #ff0000;
+}
+svg .seat.app, .legendItem-app div {
+  fill: #0000ff;
+  background-color: #0000ff;
+}
+svg .seat.pl, .legendItem-pl div {
+  fill: #f8f32b;
+  background-color: #f8f32b;
+}
+svg .seat.fp, .legendItem-fp div {
+  fill: #ff8000;
+  background-color: #ff8000;
+}
+svg .seat.bm, .legendItem-bm div {
+  fill: #FBBD00;
+  background-color: #FBBD00;
+}
+svg .seat.rp, .legendItem-rp div {
+  fill: #00aae4;
+  background-color: #00aae4;
+}
+svg .seat.sp, .legendItem-sp div {
+  fill: #0431b4;
+  background-color: #0431b4;
+}
+svg .seat.avp, .legendItem-avp div {
+  fill: #e30052;
+  background-color: #e30052;
+}
+svg .seat.cd, .legendItem-cd div {
+  fill: #2dda13;
+  background-color: #2dda13;
+}
+svg .seat.pd, .legendItem-pd div {
+  fill: #adacac;
+  background-color: #adacac;
+}
+svg .seat.pp, .legendItem-pp div {
+  fill: #00a8a6;
+  background-color: #00a8a6;
+}
+svg .seat.pb, .legendItem-pb div {
+  fill: #79579a;
+  background-color: #79579a;
+}
+svg .seat.na, .legendItem-na div {
+  fill: #000000;
+  background-color: #000000;
+}
+
+.legendItem-na {
+  width: 100% !important;
+  justify-content: center !important;
+  margin-left: -45px !important;
+}
+
+.active {
+  stroke: #f00;
+  stroke-width: 3px;
+  fill-opacity: .3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  padding: 0;
+  position: relative;
+  margin: 0;
+  height: 100%;
+}
+figure img {
+  top: 0;
+  left: 0;
+  position: absolute;
+  max-height: 100%;
+}
+figure:before {
+  display: block;
+  content: "";
+  padding-top: 69.25%;
+}
+.post {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
+.post figure img {
+  opacity: 0;
+}
+.post figure.is-loaded img {
+  animation: fadeIn 0.38s linear 0.3s forwards;
+}
+.post figure.is-loading {
+  position: relative;
+}
+.post figure.is-loading:after {
+  content: '';
+  display: block;
+  color: #ddd;
+  font-size: 30px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  transform: translateZ(0);
+  animation: loading 1.7s infinite ease;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.noSelectMessage {
+  position: absolute;
+  left: 50%;
+  margin-left: -130px;
+  top: 50%;
+  margin-top: 120px;
+}
+.displayPerson {
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+}
+.elementImg {
+  background: #fff;
+  margin: 20px 0;
+  width: 156px;
+  height: 156px;
+  border: solid 10px rgb(255, 255, 0);
+  box-shadow: -3px 0px 8px -3px #000;
+  border-radius: 100%;
+  z-index: 99;
+}
+.imgPerson {
+  width: 100%;
+  border-radius: 100%;
+}
+.elementText {
+  padding: 0 0 5px 50px;
+  width: 300px;
+  background: #fff;
+  height: 130px;
+  margin-left: -40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-right: solid 10px rgb(255, 255, 0);
+  box-shadow: 0px 0px 13px -3px #000;
+}
+.personName {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.personPartido {
+  font-size: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.personData {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+.bodyCongresista p {
+  margin: 2px 0;
+}
+.personVacancia {
+  font-size: 12px;
+}
+
+.imgPersonBorder-ap {
+  border-color: #ff0000;
+}
+.imgPersonBorder-app {
+  border-color: #0000ff;
+}
+.imgPersonBorder-pl {
+  border-color: #f8f32b;
+}
+.imgPersonBorder-fp {
+  border-color: #ff8000;
+}
+.imgPersonBorder-bm {
+  border-color: #FBBD00;
+}
+.imgPersonBorder-rp {
+  border-color: #00aae4;
+}
+.imgPersonBorder-sp {
+  border-color: #0431b4;
+}
+.imgPersonBorder-avp {
+  border-color: #e30052;
+}
+.imgPersonBorder-cd {
+  border-color: #2dda13;
+}
+.imgPersonBorder-pd {
+  border-color: #adacac;
+}
+.imgPersonBorder-na {
+  border-color: #000000;
+}
+.close {
+  opacity: 0;
+}
+@media (max-width: 500px) {
+  .elementImg {
+    width: 140px;
+    height: 140px;
+  }
+  .elementText {
+    width: 260px;
+    height: 125px;
+  }
+  .personName {
+    font-size: 11px;
+  }
+  .personVacancia {
+    font-size: 11px;
+  }
+  .chartContainer {
+    height: 390px;
+    margin-top: 5px;
+  }
+  .noSelectMessage {
+    margin-top: 80px;
+  }
+  .legendItem-na {
+    width: 160px !important;
+    justify-content: flex-start !important;
+    margin-left: 0 !important;
+  }
+}
+
+.tablaTitle {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.congresEscanosTabla {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 796px;
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
+.congresEscanosTabla div {
+  border-bottom: solid 1px #000;
+  display: flex;
+  justify-content: space-around;
+}
+.congresEscanosTabla div p {
+  padding: 5px 10px;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tablaPartidos {
+  justify-content: start !important;
+}
+.TablaEscanos {
+  width: 16% !important;
+  border-left: solid 1px;
+  border-right: solid 1px;
+}
+.TablaTextos {
+  width: 50% !important;
+}
+.TablaTextosContent {
+  text-align: left;
+}
+.congresEscanosTabla div.headers p {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.t-partidos {
+  width: 33% !important;
+}
+.t-escanos {
+  width: 16% !important;
+}
+.t-texto {
+  width: 50% !important;
+}
+.congresEscanosTablaImg {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.tablaTipoVoto .headers {
+  background-color: #000;
+}
+
+.tablaTipoVoto .headers p {
+  width: 16%;
+  color: #fff;
+}
+
+.tablaTipoVoto .headers .partidos{
+  width: 36%;
+}
+
+.tablaTipoVoto .tablaPartidos {
+  width: 36%;
+}
+
+@media (max-width: 500px) {
+  .congresEscanosTablaImg {
+    display: none;
+  }
+  .congresEscanosTabla div p {
+    font-size: 12px;
+  }
+  .tablaTipoVoto .headers .partidos {
+    width: 42%;
+  }
+  .congresEscanosTabla div.headers p {
+    font-size: 7px;
+  }
+  .legend li div {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+}
+
+.single__search__container {
+  width: 340px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.single__search__container select {
+  width: 200px;
+  border: solid 1px #000;
+  background: #fff;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.single__search__container div {
+  width: 110px;
+  height: 30px;
+}
+
+.single__search__container div p {
+  font-size: 18px;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vacanciaTipes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+  max-width: 1024px;
+  margin-top: 40px;
+}
+.tipeContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.tipe {
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.tipe div {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+@media (max-width: 500px) {
+  .tipeContainer{
+    width: 50%;
+    display: block;
+  }
+  .tipe {
+    width: 150px;
+    margin: 5px;
+  }
+  .tipe div {
+    width: 17px;
+    height: 17px;
+  }
+  .tipe p {
+    font-size: 15px;
+  }
+  .vacanciaTipes {
+    padding: 0px 28px;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    margin-top: 25px;
+  }
+}
+.Afavor {
+  background-color: #46a71f;
+}
+.Afavor:hover, .active-filter-Afavor div {
+  box-shadow: 0 0 5px 2px rgba(0, 128, 0, 0.7);
+}
+.Encontra {
+  background-color: #db060a;
+}
+.Encontra:hover, .active-filter-Encontra div {
+  box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.7);
+}
+.Abstencion {
+  background-color: #e1cf0b;
+}
+.Abstencion:hover, .active-filter-Abstencion div {
+  box-shadow: 0 0 5px 2px rgba(235, 235, 15, 0.7);
+}
+.Novoto {
+  background-color: #000000;
+}
+.Novoto:hover, .active-filter-Novoto div {
+  box-shadow: 0 0 5px 2px rgba(54, 54, 54, 0.7);
+}
+.votosCantidad {
+  text-align: center;
+  font-size: 20px;
+  width: 115px;
+  margin: 15px auto;
+  padding: 10px;
+  color: #fff;
+  background: #000;
+}
+
+
+#congresPersonContainer {
+  margin: 0px auto 0px auto;
+  /* Para ordenar en columnas */
+  column-count: 3;
+  -moz-column-count: 3; 
+  -webkit-column-count: 3;
+  -o-column-count: 3;
+  /* Para dar espacio entre columnas */
+  column-gap: 2em;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+  -o-column-gap: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 10px;
+  width: 1024px;
+}
+.congresPersonText {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 12px 0;
+}
+.congresPersonText p {
+  width: 285px;
+}
+.identificador {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+@media (max-width: 810px) {
+  #congresPersonContainer{
+    width: 682px;
+  }
+}
+@media (max-width: 500px) {
+  .partyName {
+    font-size: 11px;
+    display: block;
+    margin: 5px 0;
+    width: 130px;
+  }
+  .congresPersonText p {
+    width: 130px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .identificador {
+    width: 10px;
+    height: 10px;
+  }
+  #congresPersonContainer {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.backButton {
+  display: block;
+  margin: 50px auto;
+  height: 50px;
+  width: 110px;
+  border-radius: 10px;
+  border: 2px solid #ab0404;
+  background: transparent;
+  font-size: 15px;
+  color: #ab0404;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background: #ab0404;
+  color: #fff;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #000;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+}
+
+.footer-content {
+  padding: 30px 0;
+}
+
+.footer-text {
+  margin: 20px 0;
+}
+
+@media (max-width: 500px) {
+  .footer-content {
+      padding: 30px 30px;
+  }
+}

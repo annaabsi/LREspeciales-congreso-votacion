@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+}
+
+p, h1, h3, span {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #000;
+}
+/*Header*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.5s ease;
+    height: 65px;
+}
+.sticky-gray {
+    background: #000;
+    border-bottom: 5px solid #e1011f;
+}
+header img {
+    width: 200px;
+}
+.header-main-container {
+    padding: 1px 42px;
+}
+.a-header {
+    display: inline-block;
+    margin-top: 13px;
+}
+.logo-desktop {
+    font-size: 2.5rem;
+    color: #ffff;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 700;
+    margin: 0;
+}
+.logo-mobile {
+    font-size: 2.5rem;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 700;
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+.right {
+    margin-top: 8px;
+    float: right !important;
+}
+header span {
+    font-size: 0;
+}
+span a.btn-fb {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+span a.btn-twt {
+    background-position: 0 -43px;
+    background-repeat: no-repeat;
+}
+span a.btn-wsp {
+    background-position: 0 -86px;
+    background-repeat: no-repeat;
+}
+.right span a {
+    background-image: url(https://s3.amazonaws.com/glr-demo/2020/04/13/icons-white-1586816732.svg);
+}
+span [class*="btn-"] {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+}
+
+@media (max-width: 500px) {
+    .header-main-container {
+        padding: 1px 7px;
+    }
+}
+
+/*Main*/
+
+.portada {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.portada-text-container {
+    position: absolute;
+    left: 50%;
+    margin-left: -527px;
+    top: 50%;
+    margin-top: -190px;
+}
+
+.portada h1 {
+    /* position: absolute; */
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+    width: 1000px;
+    /* left: 50%;
+    margin-left: -500px;
+    top: 50%;
+    margin-top: -90px; */
+    text-shadow: 3px 0px 5px black;
+}
+
+.portada img {
+    width: 100%;
+    height: calc(100vh - 70px);
+    object-fit: cover;
+}
+
+section {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.textBox {
+    margin-bottom: 25px;
+    padding: 0 15px;
+}
+  
+.textBox p {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.elementAncor {
+    text-decoration: none;
+}
+
+.destacado {
+    padding: 20px 20px 30px;
+    background: #9B9A9A
+}
+
+.destacado h3 {
+    padding: 0 0 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.destacado .votacionesContainer {
+    margin-bottom: 0px;
+}
+
+.destacado .votacionesContainer .element {
+    box-shadow: 0px 0px 8px 2px #6b6b6b;
+}
+
+.forDate {
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.date {
+    padding: 0px 20px;
+    width: calc(100% - 40px);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.date h3 {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    padding: 10px;
+}
+
+.votacionesContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.votacionesContainer .element {
+    width: 300px;
+    background: #f3f3f3;
+    box-shadow: 0px 0px 8px 2px #989898;
+}
+
+.element img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.element a {
+    text-decoration: none;
+}
+
+.elementText p {
+    padding: 7px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.button__container {
+    display: none;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #000;
+  }
+  
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+  
+.footer-content {
+    padding: 30px 0;
+}
+  
+.footer-text {
+    margin: 20px 0;
+}
+
+@media (max-width: 900px) {
+    .footer-content {
+        padding: 30px 30px;
+    }
+
+    .portada-text-container {
+        position: absolute;
+        left: 50%;
+        margin-left: -350px;
+        top: 50%;
+        margin-top: -175px;
+        width: 670px;
+        padding: 15px;
+    }
+
+    .portada h1 {
+        width: 100%;
+        font-size: 48px;
+    }
+
+    .votacionesContainer .element {
+        width: 210px;
+    }
+
+    .elementText p {
+        padding: 3px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 17px;
+    }
+}
+  
+@media (max-width: 500px) {
+    .footer-content {
+        padding: 30px 30px;
+    }
+
+    .votacionesContainer {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0;
+    }
+
+    .votacionesContainer .element {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .portada-text-container {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        left: 0;
+        padding: 0;
+        background: rgba(0, 0, 0, .5);
+        display: flex;
+        align-items: center;
+    }
+    .portada h1 {
+        width: 100%;
+        font-size: 31px;
+    }
+      .textBox p {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .button__container {
+        margin: 0 auto;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: calc(100% - 50px);
+        top: 160px;
+        padding: 0 5px;
+    }
+
+    .button__container button {
+        width: 50px;
+        padding: 0;
+        height: 50px;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, .3);
+        border: solid 1px #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .button__container button:hover {
+        background-color: rgba(255, 255, 255, .8);
+    }
+
+    .button__container button:nth-child(1) {
+        padding-right: 4px;
+    }
+    .button__container button:nth-child(2) {
+        padding-left: 4px;
+    }
+
+    .button__container button svg {
+        height: 40px;
+        width: 40px;
+    }
+}
