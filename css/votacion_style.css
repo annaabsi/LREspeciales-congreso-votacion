@@ -311,11 +311,11 @@ svg .seat.iyd, .legendItem-iyd div {
   background-color: orange;
 }
 
-.legendItem-na {
+/* .legendItem-na {
   width: 100% !important;
   justify-content: center !important;
   margin-left: -45px !important;
-}
+} */
 
 .active {
   stroke: #f00;
