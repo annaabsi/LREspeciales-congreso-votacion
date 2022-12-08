@@ -19,23 +19,17 @@ const percentageChartGenerator = dataJson => {
       ]
    }
 
-   // percentage__chart_data.labels.map((item, index) => {
-   //    const w = (percentage__chart_data.datasets[0].dataJson[index] / 130) * 100
-   //    return (
-   //       percentage__chart.innerHTML += `<div style="width:${w}%">
-   //                <p class="percentage_legend">
-   //                   ${percentage__chart_data.labels[index] === 'A favor' ||
-   //          percentage__chart_data.labels[index] === 'En contra'
-   //          ? percentage__chart_data.labels[index]
-   //          : ''
-   //       }
-   //                </p>
-   //                <div class="segment" style="background-color:${percentage__chart_data.datasets[0].backgroundColor[index]};">
-   //                   <p>
-   //                      ${percentage__chart_data.datasets[0].dataJson[index]}
-   //                   </p>   
-   //                </div>
-   //             </div>`
-   //    );
-   // })
+   percentage__chart_data.labels.map((item, index) => {
+      const w = (percentage__chart_data.datasets[0].dataJson[index] / 130) * 100
+      return (
+         percentage__chart.innerHTML += `<div style="width:${w}%">
+                  <p class="percentage_legend"> </p>
+                  <div class="segment" style="background-color:${percentage__chart_data.datasets[0].backgroundColor[index]};">
+                     <p>
+                        ${percentage__chart_data.datasets[0].dataJson[index]}
+                     </p>   
+                  </div>
+               </div>`
+      );
+   })
 }
