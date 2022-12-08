@@ -505,6 +505,15 @@ figure:before {
 .imgPersonBorder-na {
   border-color: #000000;
 }
+.imgPersonBorder-iyd {
+  border-color: orange;
+}
+.imgPersonBorder-pp {
+  border-color: #00a8a6;
+}
+.imgPersonBorder-pb {
+  border-color: #79579a;
+}
 .close {
   opacity: 0;
 }

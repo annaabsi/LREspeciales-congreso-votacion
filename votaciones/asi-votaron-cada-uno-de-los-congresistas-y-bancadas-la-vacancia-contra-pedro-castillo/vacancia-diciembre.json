@@ -224,10 +224,10 @@
         "logo": "app.png"
     },
     {
-        "id": "app",
-        "legend": "app",
+        "id": "iyd",
+        "legend": "iyd",
         "Congresista": "Acuña Peralta Segundo Héctor",
-        "Bancada": "Alianza para el progreso",
+        "Bancada": "Identidad y Desarrollo",
         "Genero": "Masculino",
         "Nacimiento": "04/08/1957",
         "Votos": "19729",
@@ -235,7 +235,7 @@
         "Vacancia": "A favor",
         "seats": 1,
         "foto": "Acuña-Peralta-Segundo-Hector.jpg",
-        "logo": "app.png"
+        "logo": "iyd.png"
     },
     {
         "id": "app",
@@ -1781,7 +1781,7 @@
         "id": "iyd",
         "legend": "iyd",
         "Congresista": "Pablo Medina Flor Aidee",
-        "Bancada": "No agrupado",
+        "Bancada": "Identidad y Desarrollo",
         "Genero": "Femenino",
         "Nacimiento": "09/20/1974",
         "Votos": "53899",
@@ -1795,7 +1795,7 @@
         "id": "iyd",
         "legend": "iyd",
         "Congresista": "Paredes Piqué Susel Ana María",
-        "Bancada": "No agrupado",
+        "Bancada": "Identidad y Desarrollo",
         "Genero": "Femenino",
         "Nacimiento": "07/26/1963",
         "Votos": "76785",
