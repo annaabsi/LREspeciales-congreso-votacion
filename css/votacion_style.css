@@ -115,8 +115,9 @@ main {
 .title h1 {
   text-align: center;
   font-size: 35px;
-  margin-bottom: 30px;
   padding: 0 15px;
+  max-width: 750px;
+  margin: 10px auto 30px;
 }
 
 .textBox {
@@ -303,6 +304,11 @@ svg .seat.pb, .legendItem-pb div {
 svg .seat.na, .legendItem-na div {
   fill: #000000;
   background-color: #000000;
+}
+
+svg .seat.iyd, .legendItem-iyd div {
+  fill: orange;
+  background-color: orange;
 }
 
 .legendItem-na {

@@ -14,18 +14,18 @@
         "logo": "ap.png"
     },
     {
-        "id": "ap",
-        "legend": "ap",
+        "id": "iyd",
+        "legend": "iyd",
         "Congresista": "Alva Rojas Carlos Enrique",
-        "Bancada": "Acción popular",
+        "Bancada": "Identidad y Desarrollo",
         "Genero": "Masculino",
         "Nacimiento": "05/15/1969",
         "Votos": "8061",
         "Region": "La Libertad",
-        "Vacancia": "Abstención",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Alva-Rojas-Carlos-Enrique.jpg",
-        "logo": "ap.png"
+        "logo": "iyd.png"
     },
     {
         "id": "ap",
@@ -50,7 +50,7 @@
         "Nacimiento": "03/18/1957",
         "Votos": "34982",
         "Region": "Lima",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Arriola-Tueros-Jose-Alberto.jpg",
         "logo": "ap.png"
@@ -64,7 +64,7 @@
         "Nacimiento": "02/14/1972",
         "Votos": "8482",
         "Region": "Ica",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Doroteo-Carbajo-Raul-Felipe.jpg",
         "logo": "ap.png"
@@ -78,7 +78,7 @@
         "Nacimiento": "02/19/1983",
         "Votos": "6505",
         "Region": "Áncash",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Espinoza-Vargas-Jhaec-Darwin.jpg",
         "logo": "ap.png"
@@ -92,7 +92,7 @@
         "Nacimiento": "03/12/1977",
         "Votos": "23539",
         "Region": "Puno",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Flores-Ancachi-Jorge-Luis.jpg",
         "logo": "ap.png"
@@ -106,7 +106,7 @@
         "Nacimiento": "02/15/1985",
         "Votos": "17727",
         "Region": "Junín",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Lopez-Ureña-Ilich-Fredy.jpg",
         "logo": "ap.png"
@@ -148,7 +148,7 @@
         "Nacimiento": "03/21/1974",
         "Votos": "8815",
         "Region": "Loreto",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Mori-Celis-Juan-Carlos.jpg",
         "logo": "ap.png"
@@ -176,7 +176,7 @@
         "Nacimiento": "08/28/1968",
         "Votos": "8568",
         "Region": "Lambayeque",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Portero-Lopez-Hilda-Marleny.jpg",
         "logo": "ap.png"
@@ -204,7 +204,7 @@
         "Nacimiento": "12/16/1984",
         "Votos": "4486",
         "Region": "Ucayali",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Vergara-Mendoza-Elvis-Hernan.jpg",
         "logo": "ap.png"
@@ -232,7 +232,7 @@
         "Nacimiento": "04/08/1957",
         "Votos": "19729",
         "Region": "La Libertad",
-        "Vacancia": "No votó",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Acuña-Peralta-Segundo-Hector.jpg",
         "logo": "app.png"
@@ -266,10 +266,10 @@
         "logo": "app.png"
     },
     {
-        "id": "app",
-        "legend": "app",
+        "id": "na",
+        "legend": "na",
         "Congresista": "Díaz Monago Freddy Ronald",
-        "Bancada": "Alianza para el progreso",
+        "Bancada": "No agrupado",
         "Genero": "Masculino",
         "Nacimiento": "01/01/1985",
         "Votos": "4195",
@@ -277,13 +277,13 @@
         "Vacancia": "No votó",
         "seats": 1,
         "foto": "Diaz-Monago-Freddy-Ronald.jpg",
-        "logo": "app.png"
+        "logo": "na.png"
     },
     {
-        "id": "app",
-        "legend": "app",
+        "id": "rp",
+        "legend": "rp",
         "Congresista": "Echaíz de Núñez Izaga Gladys Margot",
-        "Bancada": "Alianza para el progreso",
+        "Bancada": "Renovación popular",
         "Genero": "Femenino",
         "Nacimiento": "04/30/1946",
         "Votos": "21627",
@@ -291,7 +291,7 @@
         "Vacancia": "A favor",
         "seats": 1,
         "foto": "Echaiz-de-Nunez-Izaga-Gladys-Margot.jpg",
-        "logo": "app.png"
+        "logo": "rp.png"
     },
     {
         "id": "app",
@@ -308,18 +308,18 @@
         "logo": "app.png"
     },
     {
-        "id": "app",
-        "legend": "app",
+        "id": "na",
+        "legend": "na",
         "Congresista": "Juárez Calle Heidy Lisbeth",
-        "Bancada": "Alianza para el progreso",
+        "Bancada": "No agrupado",
         "Genero": "Femenino",
         "Nacimiento": "02/16/1984",
         "Votos": "19153",
         "Region": "Piura",
-        "Vacancia": "No votó",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Juarez-Calle-Heidy-Lisbeth.jpg",
-        "logo": "app.png"
+        "logo": "na.png"
     },
     {
         "id": "app",
@@ -414,24 +414,24 @@
         "Nacimiento": "03/15/1967",
         "Votos": "29293",
         "Region": "Arequipa",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Aguero-Gutiérrez-Maria-Antonieta.jpg",
         "logo": "pl.png"
     },
     {
-        "id": "pl",
-        "legend": "pl",
+        "id": "na",
+        "legend": "na",
         "Congresista": "Bellido Ugarte Guido",
-        "Bancada": "Perú libre",
+        "Bancada": "No agrupado",
         "Genero": "Masculino",
         "Nacimiento": "08/07/1979",
         "Votos": "20164",
         "Region": "Cusco",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Bellido-Ugarte-Guido.jpg",
-        "logo": "pl.png"
+        "logo": "na.png"
     },
     {
         "id": "pl",
@@ -442,7 +442,7 @@
         "Nacimiento": "03/19/1972",
         "Votos": "25281",
         "Region": "Junín",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Cerron-Rojas-Waldemar-Jose.jpg",
         "logo": "pl.png"
@@ -456,7 +456,7 @@
         "Nacimiento": "04/21/1968",
         "Votos": "30025",
         "Region": "Puno",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Cruz-Mamani-Flavio.jpg",
         "logo": "pl.png"
@@ -470,7 +470,7 @@
         "Nacimiento": "09/21/1984",
         "Votos": "21993",
         "Region": "Ayacucho",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Flores-Ramirez-Alex-Randu.jpg",
         "logo": "pl.png"
@@ -484,7 +484,7 @@
         "Nacimiento": "12/01/1981",
         "Votos": "10394",
         "Region": "Cajamarca",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Gonza-Castillo-Americo.jpg",
         "logo": "pl.png"
@@ -498,7 +498,7 @@
         "Nacimiento": "11/18/1983",
         "Votos": "11781",
         "Region": "Ayacucho",
-        "Vacancia": "No votó",
+        "Vacancia": "En contra",
         "seats": 1,
         "foto": "Palacios-Huaman-Margot.jpg",
         "logo": "pl.png"
@@ -512,7 +512,7 @@
         "Nacimiento": "06/22/1966",
         "Votos": "5268",
         "Region": "Amazonas",
-        "Vacancia": "En contra",
+        "Vacancia": "No votó",
         "seats": 1,
         "foto": "Montalvo-Cubas-Segundo-Toribio.jpg",
         "logo": "pl.png"
@@ -526,7 +526,7 @@
         "Nacimiento": "03/03/1970",
         "Votos": "9849",
         "Region": "Huancavelica",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Pariona-Sinche-Alfredo.jpg",
         "logo": "pl.png"
@@ -540,7 +540,7 @@
         "Nacimiento": "11/09/1984",
         "Votos": "8286",
         "Region": "Ancash",
-        "Vacancia": "En contra",
+        "Vacancia": "No votó",
         "seats": 1,
         "foto": "Portalatino-Avalos-Kelly-Roxana.jpg",
         "logo": "pl.png"
@@ -554,7 +554,7 @@
         "Nacimiento": "08/21/1981",
         "Votos": "28343",
         "Region": "Puno",
-        "Vacancia": "En contra",
+        "Vacancia": "No votó",
         "seats": 1,
         "foto": "Quispe-Mamani-Wilson-Rusbel.jpg",
         "logo": "pl.png"
@@ -582,7 +582,7 @@
         "Nacimiento": "05/19/1984",
         "Votos": "7133",
         "Region": "Huánuco",
-        "Vacancia": "No votó",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Reyes-Cam-Abel-Augusto.jpg",
         "logo": "pl.png"
@@ -610,7 +610,7 @@
         "Nacimiento": "11/06/1984",
         "Votos": "11893",
         "Region": "Junín",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Robles-Araujo-Silvana-Emperatriz.jpg",
         "logo": "pl.png"
@@ -624,7 +624,7 @@
         "Nacimiento": "07/12/1981",
         "Votos": "8643",
         "Region": "Apurímac",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Taipe-Coronado-Maria-Elizabeth.jpg",
         "logo": "pl.png"
@@ -974,7 +974,7 @@
         "Nacimiento": "01/21/1968",
         "Votos": "3915",
         "Region": "Pasco",
-        "Vacancia": "En contra",
+        "Vacancia": "No votó",
         "seats": 1,
         "foto": "Davila-Atanacio-Pasion-Neomias.jpg",
         "logo": "bm.png"
@@ -1002,7 +1002,7 @@
         "Nacimiento": "01/04/1969",
         "Votos": "11300",
         "Region": "Huánuco",
-        "Vacancia": "Abstención",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Medina-Hermosilla-Elizabeth-Sara.jpg",
         "logo": "bm.png"
@@ -1016,7 +1016,7 @@
         "Nacimiento": "04/23/1981",
         "Votos": "3454",
         "Region": "Ucayali",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Paredes-Castro-Francis-Jhasmina.jpg",
         "logo": "bm.png"
@@ -1030,7 +1030,7 @@
         "Nacimiento": "09/16/1963",
         "Votos": "18673",
         "Region": "Arequipa",
-        "Vacancia": "Abstención",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Paredes-Gonzales-Alex-Antonio.jpg",
         "logo": "bm.png"
@@ -1044,7 +1044,7 @@
         "Nacimiento": "10/09/1964",
         "Votos": "16660",
         "Region": "Cajamarca",
-        "Vacancia": "En contra",
+        "Vacancia": "No votó",
         "seats": 1,
         "foto": "Quiroz-Barboza-Segundo-Teodomiro.jpg",
         "logo": "bm.png"
@@ -1058,7 +1058,7 @@
         "Nacimiento": "11/23/1967",
         "Votos": "11547",
         "Region": "Ayacucho",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Tacuri-Valdivia-German Adolfo.jpg",
         "logo": "bm.png"
@@ -1072,7 +1072,7 @@
         "Nacimiento": "10/02/1969",
         "Votos": "5133",
         "Region": "Lima",
-        "Vacancia": "Abstención",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Tello-Montes-Nivardo-Edgar.jpg",
         "logo": "bm.png"
@@ -1086,7 +1086,7 @@
         "Nacimiento": "12/21/1971",
         "Votos": "12700",
         "Region": "Cusco",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Ugarte-Mamani-Jhakeline-Katy.jpg",
         "logo": "bm.png"
@@ -1100,7 +1100,7 @@
         "Nacimiento": "04/24/1958",
         "Votos": "8778",
         "Region": "San Martín",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Vasquez-Vela-Lucinda.jpg",
         "logo": "bm.png"
@@ -1162,10 +1162,10 @@
         "logo": "rp.png"
     },
     {
-        "id": "rp",
-        "legend": "rp",
+        "id": "sp",
+        "legend": "sp",
         "Congresista": "Medina Minaya Esdras Ricardo",
-        "Bancada": "Renovación popular",
+        "Bancada": "Somos Perú",
         "Genero": "Masculino",
         "Nacimiento": "03/25/1967",
         "Votos": "15693",
@@ -1173,7 +1173,7 @@
         "Vacancia": "A favor",
         "seats": 1,
         "foto": "Medina-Minaya-Esdras-Ricardo.jpg",
-        "logo": "rp.png"
+        "logo": "sp.png"
     },
     {
         "id": "rp",
@@ -1232,10 +1232,10 @@
         "logo": "rp.png"
     },
     {
-        "id": "sp",
-        "legend": "sp",
+        "id": "iyd",
+        "legend": "iyd",
         "Congresista": "Alcarraz Agüero Yorel Kira",
-        "Bancada": "Somos Perú",
+        "Bancada": "Identidad y Desarrollo",
         "Genero": "Femenino",
         "Nacimiento": "07/10/1974",
         "Votos": "28404",
@@ -1243,7 +1243,7 @@
         "Vacancia": "A favor",
         "seats": 1,
         "foto": "Alcarraz-Aguero-Yorel-Kira.jpg",
-        "logo": "sp.png"
+        "logo": "iyd.png"
     },
     {
         "id": "sp",
@@ -1268,7 +1268,7 @@
         "Nacimiento": "11/06/1952",
         "Votos": "11483",
         "Region": "Piura",
-        "Vacancia": "A favor",
+        "Vacancia": "No votó",
         "seats": 1,
         "foto": "Elera-Garcia-Wilmar-Alberto.jpg",
         "logo": "sp.png"
@@ -1282,7 +1282,7 @@
         "Nacimiento": "11/13/1986",
         "Votos": "11654",
         "Region": "Lima",
-        "Vacancia": "Abstención",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Jeri-Ore-Jose-Enrique.jpg",
         "logo": "sp.png"
@@ -1296,7 +1296,7 @@
         "Nacimiento": "02/18/1978",
         "Votos": "7654",
         "Region": "Loreto",
-        "Vacancia": "Abstención",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Saavedra-Casternoque-Hitler.jpg",
         "logo": "sp.png"
@@ -1330,10 +1330,10 @@
         "logo": "avp.jpg"
     },
     {
-        "id": "avp",
-        "legend": "avp",
+        "id": "na",
+        "legend": "na",
         "Congresista": "Burgos Oliveros Juan Bartolomé",
-        "Bancada": "Avanza país - Partido de integración social",
+        "Bancada": "No agrupado",
         "Genero": "Masculino",
         "Nacimiento": "03/28/1971",
         "Votos": "10060",
@@ -1341,7 +1341,7 @@
         "Vacancia": "A favor",
         "seats": 1,
         "foto": "Burgos-Oliveros-Juan-Bartolome.jpg",
-        "logo": "avp.jpg"
+        "logo": "na.png"
     },
     {
         "id": "avp",
@@ -1450,10 +1450,10 @@
         "Nacimiento": "09/27/1990",
         "Votos": "44359",
         "Region": "Lima",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Bazan-Narro-Sigrid-Tesoro.jpg",
-        "logo": "avp.jpg"
+        "logo": "cd.png"
     },
     {
         "id": "cd",
@@ -1464,10 +1464,10 @@
         "Nacimiento": "06/04/1969",
         "Votos": "34888",
         "Region": "Lima",
-        "Vacancia": "En contra",
+        "Vacancia": "No votó",
         "seats": 1,
         "foto": "Cortez-Aguirre-Isabel.jpg",
-        "logo": "avp.jpg"
+        "logo": "cd.png"
     },
     {
         "id": "cd",
@@ -1478,10 +1478,10 @@
         "Nacimiento": "06/19/1979",
         "Votos": "12049",
         "Region": "Cusco",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Luque-Ibarra-Ruth.jpg",
-        "logo": "avp.jpg"
+        "logo": "cd.png"
     },
     {
         "id": "cd",
@@ -1492,10 +1492,10 @@
         "Nacimiento": "02/26/1952",
         "Votos": "7912",
         "Region": "Junín",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Reymundo-Mercado-Edgard-Cornelio.jpg",
-        "logo": "avp.jpg"
+        "logo": "cd.png"
     },
     {
         "id": "cd",
@@ -1506,10 +1506,10 @@
         "Nacimiento": "02/03/1969",
         "Votos": "29825",
         "Region": "Lima",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Sanchez-Palomino-Roberto-Helbert.jpg",
-        "logo": "avp.jpg"
+        "logo": "cd.png"
     },
     {
         "id": "pd",
@@ -1520,7 +1520,7 @@
         "Nacimiento": "10/06/1975",
         "Votos": "8254",
         "Region": "Lima",
-        "Vacancia": "En contra",
+        "Vacancia": "No votó",
         "seats": 1,
         "foto": "Bermejo-Rojas-Guillermo.jpg",
         "logo": "pd.png"
@@ -1562,7 +1562,7 @@
         "Nacimiento": "03/31/1964",
         "Votos": "6035",
         "Region": "La Libertad",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Kamiche-Morante-Luis-Roberto.jpg",
         "logo": "pd.png"
@@ -1582,10 +1582,10 @@
         "logo": "pd.png"
     },
     {
-        "id": "pd",
-        "legend": "pd",
+        "id": "na",
+        "legend": "na",
         "Congresista": "Valer Pinto Héctor",
-        "Bancada": "Perú democrático",
+        "Bancada": "No agrupado",
         "Genero": "Masculino",
         "Nacimiento": "02/04/1959",
         "Votos": "20948",
@@ -1593,21 +1593,21 @@
         "Vacancia": "A favor",
         "seats": 1,
         "foto": "Valer-Pinto-Hector.jpg",
-        "logo": "pd.png"
+        "logo": "na.png"
     },
     {
-        "id": "pd",
-        "legend": "pd",
+        "id": "iyd",
+        "legend": "iyd",
         "Congresista": "Zeballos Madariaga Carlos Javier",
-        "Bancada": "Perú democrático",
+        "Bancada": "Identidad y Desarrollo",
         "Genero": "Masculino",
         "Nacimiento": "04/27/1977",
         "Votos": "23883",
         "Region": "Puno",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Zeballos-Madariaga-Carlos-Javier.jpg",
-        "logo": "pd.png"
+        "logo": "iyd.png"
     },
     {
         "id": "pp",
@@ -1618,7 +1618,7 @@
         "Nacimiento": "08/13/1973",
         "Votos": "34450",
         "Region": "Puno",
-        "Vacancia": "No votó",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Zea-Choquechambi-Oscar.jpg",
         "logo": "pp.png"
@@ -1688,7 +1688,7 @@
         "Nacimiento": "01/17/1943",
         "Votos": "6641",
         "Region": "Lambayeque",
-        "Vacancia": "En contra",
+        "Vacancia": "No votó",
         "seats": 1,
         "foto": "Balcazar-Zelada-Jose-Maria.jpg",
         "logo": "pb.png"
@@ -1702,7 +1702,7 @@
         "Nacimiento": "10/20/1955",
         "Votos": "4846",
         "Region": "Moquegua",
-        "Vacancia": "En contra",
+        "Vacancia": "Abstención",
         "seats": 1,
         "foto": "Coayla-Juarez-Jorge-Samuel.jpg",
         "logo": "pb.png"
@@ -1730,7 +1730,7 @@
         "Nacimiento": "09/14/1972",
         "Votos": "3821",
         "Region": "Moquegua",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Cutipa-Ccama-Victor-Raul.jpg",
         "logo": "pb.png"
@@ -1744,7 +1744,7 @@
         "Nacimiento": "01/03/1957",
         "Votos": "6597",
         "Region": "Ica",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Marticorena-Mendoza-Jorge-Alfonso.jpg",
         "logo": "pb.png"
@@ -1778,32 +1778,32 @@
         "logo": "na.png"
     },
     {
-        "id": "na",
-        "legend": "na",
+        "id": "iyd",
+        "legend": "iyd",
         "Congresista": "Pablo Medina Flor Aidee",
         "Bancada": "No agrupado",
         "Genero": "Femenino",
         "Nacimiento": "09/20/1974",
         "Votos": "53899",
         "Region": "Lima",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Pablo-Medina-Flor-Aidee.jpg",
-        "logo": "na.png"
+        "logo": "iyd.png"
     },
     {
-        "id": "na",
-        "legend": "na",
+        "id": "iyd",
+        "legend": "iyd",
         "Congresista": "Paredes Piqué Susel Ana María",
         "Bancada": "No agrupado",
         "Genero": "Femenino",
         "Nacimiento": "07/26/1963",
         "Votos": "76785",
         "Region": "Lima",
-        "Vacancia": "En contra",
+        "Vacancia": "A favor",
         "seats": 1,
         "foto": "Paredes-Pique-Susel-Ana-Maria.jpg",
-        "logo": "na.png"
+        "logo": "iyd.png"
     },
     {
         "id": "na",

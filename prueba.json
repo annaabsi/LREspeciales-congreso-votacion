@@ -1,16 +1,27 @@
 [
     {
+        "id": "diciembre22",
+        "mes": "Diciembre 2022",
+        "especiales": [
+            {
+                "titulo": "Así votaron cada uno de los congresistas y bancadas políticas la vacancia contra Pedro Castillo",
+                "url": "./votaciones/asi-votaron-cada-uno-de-los-congresistas-y-bancadas-la-vacancia-contra-pedro-castillo/",
+                "portada": "./votaciones/asi-votaron-cada-uno-de-los-congresistas-y-bancadas-la-vacancia-contra-pedro-castillo/portada/img.png"
+            }
+        ]
+    },
+    {
         "id": "julio22",
         "mes": "Julio 2022",
         "especiales": [
             {
                 "titulo": "Congreso aprueba retorno de la bicameralidad, pero deberá ir a referéndum para ser ratificada",
-                "url" : "./votaciones/retorno-a-la-bicameralidad-fue-respaldado-por-el-pleno-asi-votaron-congresistas-y-bancadas/",
+                "url": "./votaciones/retorno-a-la-bicameralidad-fue-respaldado-por-el-pleno-asi-votaron-congresistas-y-bancadas/",
                 "portada": "./votaciones/retorno-a-la-bicameralidad-fue-respaldado-por-el-pleno-asi-votaron-congresistas-y-bancadas/portada/img.jpg"
             },
             {
                 "titulo": "Por insistencia, Congreso aprobó ley que debilita a la Sunedu ",
-                "url" : "./votaciones/aprueban-contrarreforma-universitaria-que-debilita-a-sunedu-asi-votaron-congresistas-y-bancadas/",
+                "url": "./votaciones/aprueban-contrarreforma-universitaria-que-debilita-a-sunedu-asi-votaron-congresistas-y-bancadas/",
                 "portada": "./votaciones/aprueban-contrarreforma-universitaria-que-debilita-a-sunedu-asi-votaron-congresistas-y-bancadas/portada/img.jpg"
             }
         ]
@@ -21,12 +32,12 @@
         "especiales": [
             {
                 "titulo": "Pleno censuró a ministro del Interior, Dimitri Senmache",
-                "url" : "./votaciones/censura-al-ministro-del-interior-dimitri-senmache-asi-votaron-congresistas-bancadas/",
+                "url": "./votaciones/censura-al-ministro-del-interior-dimitri-senmache-asi-votaron-congresistas-bancadas/",
                 "portada": "./votaciones/censura-al-ministro-del-interior-dimitri-senmache-asi-votaron-congresistas-bancadas/portada/img.jpg"
             },
             {
                 "titulo": "Congreso rechazó moción de interpelación contra Aníbal Torres",
-                "url" : "./votaciones/rechazan-mocion-de-interpelacion-contra-anibal-torres/",
+                "url": "./votaciones/rechazan-mocion-de-interpelacion-contra-anibal-torres/",
                 "portada": "./votaciones/rechazan-mocion-de-interpelacion-contra-anibal-torres/portada/img.jpg"
             }
         ]
@@ -37,17 +48,17 @@
         "especiales": [
             {
                 "titulo": "Betssy Chávez, ministra de Trabajo, fue censurada por el Pleno con 71 votos ",
-                "url" : "./votaciones/pleno-censura-a-ministra-de-trabajo-betssy-chavez/",
+                "url": "./votaciones/pleno-censura-a-ministra-de-trabajo-betssy-chavez/",
                 "portada": "./votaciones/pleno-censura-a-ministra-de-trabajo-betssy-chavez/portada/img.jpg"
             },
             {
                 "titulo": "En segunda votación, Congreso aprobó reducir la autonomía de la Sunedu ",
-                "url" : "./votaciones/pleno-aprobo-en-segunda-votacion-reducir-la-autonomia-de-sunedu-contrarreforma-universitaria/",
+                "url": "./votaciones/pleno-aprobo-en-segunda-votacion-reducir-la-autonomia-de-sunedu-contrarreforma-universitaria/",
                 "portada": "./votaciones/pleno-aprobo-en-segunda-votacion-reducir-la-autonomia-de-sunedu-contrarreforma-universitaria/portada/img.jpg"
             },
             {
                 "titulo": "Congreso aprobó retiro de hasta 4 UIT de las AFP",
-                "url" : "./votaciones/nuevo-retiro-afp-aprobado-hasta-18400-de-fondos/",
+                "url": "./votaciones/nuevo-retiro-afp-aprobado-hasta-18400-de-fondos/",
                 "portada": "./votaciones/nuevo-retiro-afp-aprobado-hasta-18400-de-fondos/portada/img.jpg"
             }
         ]
@@ -58,12 +69,12 @@
         "especiales": [
             {
                 "titulo": "Congreso censuró a Hernán Condori, ministro de Salud, con 71 votos",
-                "url" : "./votaciones/censura-a-hernan-condori-ministro-de-salud/",
+                "url": "./votaciones/censura-a-hernan-condori-ministro-de-salud/",
                 "portada": "./votaciones/censura-a-hernan-condori-ministro-de-salud/portada/img.jpg"
             },
             {
                 "titulo": "Congreso rechazó la vacancia presidencial contra Pedro Castillo ",
-                "url" : "./votaciones/vacancia-presidencial-pedro-castillo-asi-votaron-los-congresistas-y-las-bancadas-en-el-segundo-intento/",
+                "url": "./votaciones/vacancia-presidencial-pedro-castillo-asi-votaron-los-congresistas-y-las-bancadas-en-el-segundo-intento/",
                 "portada": "./votaciones/vacancia-presidencial-pedro-castillo-asi-votaron-los-congresistas-y-las-bancadas-en-el-segundo-intento/portada/img.jpg"
             }
         ]
