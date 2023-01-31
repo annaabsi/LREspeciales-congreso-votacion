@@ -861,3 +861,89 @@ footer p {
       padding: 30px 30px;
   }
 }
+
+.container-barra {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 78px
+}
+
+.barra {
+  position: relative;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  width: 33%;
+  font-family: "Source Sans Pro", sans-serif
+}
+
+.barra-favor {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px
+}
+
+.barra-favor:before {
+  position: absolute;
+  content: "A FAVOR";
+  bottom: -20px;
+  font-weight: 700;
+  font-size: 11px;
+  color: #000;
+  font-family: "Source Sans Pro", sans-serif
+}
+
+.barra-evaluacion {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.barra-evaluacion:before {
+  position: absolute;
+  bottom: -20px;
+  content: "";
+  font-weight: 700;
+  font-size: 11px;
+  color: #000;
+  font-family: "Source Sans Pro", sans-serif
+}
+
+.barra-contra {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px
+}
+
+.barra-contra:before {
+  bottom: -20px;
+  content: "EN CONTRA";
+  font-weight: 700;
+  font-size: 11px
+}
+
+.barra-contra:before,
+.cont-proyeccion {
+  position: absolute;
+  color: #000;
+  font-family: "Source Sans Pro", sans-serif
+}
+
+.cont-proyeccion {
+  top: 3px;
+  font-size: 14px;
+  padding-left: 10px
+}
+
+.link-push {
+  text-decoration: none
+}
+
+.flourish-credit {
+  display: none;
+}
